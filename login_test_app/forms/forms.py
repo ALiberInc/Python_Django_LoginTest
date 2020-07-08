@@ -72,7 +72,6 @@ class ProfileEditForm(forms.ModelForm):
     test4 = forms.ModelMultipleChoiceField(label='radio', queryset=CHOICES,
                                            widget=forms.RadioSelect(attrs={'class': 'radio'}))
 """
-
     class Meta:
         model = Profile
         # exclude = ()  # created_at,updated_atは編集できないfields

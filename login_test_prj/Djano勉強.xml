@@ -5,26 +5,17 @@
             <日付>20/06/08及び以前</日付>
             <内容>
                 <Djano全体的構造>
-                    プロジェクト
-                    <br/>
-                    　アプリケーション
-                    <br/>
-                    　　ビュー
-                    <br/>
-                    　　フォーム
-                    <br/>
-                    　　モデル
-                    <br/>
-                    　　テンプレート
-                    <br/>
+                    プロジェクト<br/>
+                    　アプリケーション<br/>
+                    　　ビュー<br/>
+                    　　フォーム<br/>
+                    　　モデル<br/>
+                    　　テンプレート<br/>
                 </Djano全体的構造>
                 <ルーティング>
-                    ファイルurl.pyに記載されている
-                    <br/>
-                    project/url.py
-                    <br/>
-                    app/url.py
-                    <br/>
+                    ファイルurl.pyに記載されている<br/>
+                    project/url.py<br/>
+                    app/url.py<br/>
                 </ルーティング>
                 <DjangoApp作成>
                     settings.pyにappを追加
@@ -47,31 +38,19 @@
     <未報告></未報告>
     <課題>
         <フォームのFields>
-            代表的なフィールドクラス：
+            代表的なフィールドクラス：<br/>
+            CharField TextInput<br/>
+            BooleanField CheckBoxInput<br/>
+            ChoiceField Select<br/>
+            DateField DateInput<br/>
+            EmailField TextInput<br/>
+            ImageField TextInput<br/>
             <br/>
-            CharField TextInput
-            <br/>
-            BooleanField CheckBoxInput
-            <br/>
-            ChoiceField Select
-            <br/>
-            DateField DateInput
-            <br/>
-            EmailField TextInput
-            <br/>
-            ImageField TextInput
-            <br/>
-            <br/>
-            エラーメッセージキー:
-            <br/>
-            required 必須かどうか（デフォルトはTrue）
-            <br/>
-            lable
-            <br/>
-            widget
-            <br/>
-            validators
-            <br/>
+            エラーメッセージキー:<br/>
+            required 必須かどうか（デフォルトはTrue）<br/>
+            lable<br/>
+            widget<br/>
+            validators<br/>
         </フォームのFields>
     </課題>
     <自由勉強></自由勉強>

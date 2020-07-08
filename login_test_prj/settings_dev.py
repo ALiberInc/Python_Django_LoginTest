@@ -8,7 +8,6 @@ def show_toolbar(request):
     return True
     # return False
 
-
 LOGGING = {
     'version': 1,  # 1固定
     'disable_existing_loggers': False,
@@ -51,7 +50,7 @@ LOGGING = {
                 '%(message)s'
             ])
         },
-        'all': {  # 出力フォーマットに`all`という名前をつける
+        'all': {    # 出力フォーマットに`all`という名前をつける
             'format': '\t'.join([
                 "[%(levelname)s]",
                 "asctime:%(asctime)s",
@@ -67,8 +66,8 @@ LOGGING = {
 # 開発環境にメールの配信先をコンソールする設定
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
 DEBUG_TOOLBAR_CONFIG = {
-    'SHOW_TOOLBAR_CALLBACK': show_toolbar,
-}
+        'SHOW_TOOLBAR_CALLBACK': show_toolbar,
+    }

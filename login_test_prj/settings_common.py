@@ -94,11 +94,11 @@ AUTH_PASSWORD_VALIDATORS = [
         },
     },
     # {
-    # Validate whether the password is a common password.
+        # Validate whether the password is a common password.
     #     'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
     # },
     # {
-    # Validate whether the password is alphanumeric.
+        # Validate whether the password is alphanumeric.
     #     'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     # },
 ]
